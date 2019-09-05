@@ -1,6 +1,10 @@
 # Compution Vision Notes
 
 # General training tricks
++ First overfit to small dataset, than generalize.
++ Do some intution based binary search of hyperparameters
++ Use visualization as much as possible to analysis.
++ Don't change lots of hyperparameters at the same time.
 
 
 ## Variation Inference Methods
@@ -24,5 +28,5 @@
 + They provide list of negative results they encountered.
 + Training dataset suffer mode collapse, class leakageand local object artefacts.
 
-#### Training Tricks
-+ Interesting trick from soumith github repo [https://github.com/itsank/ganhacks]
+#### GAN Training Tricks
++ Interesting tricks from soumith github repo [https://github.com/soumith/ganhacks]
