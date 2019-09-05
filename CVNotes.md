@@ -3,8 +3,8 @@
 ## Variation Inference Methods
 
 ### Generative Adversarial Networks (GANS)
-#### Original GAN
+#### 1)Original GAN
 
-#### BigGAN
+#### 2)BigGAN
 + Solves issue of using GAN for high-definition images upto (512x512)
 + 
