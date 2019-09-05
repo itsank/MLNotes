@@ -1,5 +1,8 @@
 # Compution Vision Notes
 
+# General training tricks
+
+
 ## Variation Inference Methods
 
 ### Metrics
@@ -20,3 +23,6 @@
 + Result is not reproducible, unless u work in deepmind or have infinite compute power.
 + They provide list of negative results they encountered.
 + Training dataset suffer mode collapse, class leakageand local object artefacts.
+
+#### Training Tricks
++ Interesting trick from soumith github repo [https://github.com/itsank/ganhacks]
