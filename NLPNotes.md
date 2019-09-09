@@ -23,9 +23,6 @@
   + Used for four type of tasks, Give state-of-the art results.
     - SQuad
     - Glove
-    -
-    -
-    -
 + Uses Self-attention
 + Can handle sequences with different lengths
   + Fixed padding size requiref for pre-training
@@ -33,8 +30,21 @@
   + it can do text generation, but are not good in that.
 
 
+## Classification
 
+### Generative vs Discriminative Models
++ Model the distribution of the outline data, to do generation of data similar to inout data. Model joint distribution
+### Discriminative Models
++ Learn boundaries between classes in some latent space, thus these model learn condition probability distribution.
+
+Tips
+
+
++ Termination citeria:- 
+    + Number of epochs
+    + Threshold on training set errors, 
+    + No descrese in error or increase validation error.
+    
 # Interesting papers
 #### Embeddings
-+ |dsfds|sdfds|
-+ |fdsdf|dsfsd|
+
