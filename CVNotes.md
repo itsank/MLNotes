@@ -30,3 +30,11 @@
 
 #### GAN Training Tricks
 + Interesting tricks from soumith github repo [https://github.com/soumith/ganhacks]
+
+## Video Tracking
+
+#### Interesting papers
+####### Tracking without bells and whistles [pdf](https://arxiv.org/pdf/1903.05625.pdf)
+
+
+
