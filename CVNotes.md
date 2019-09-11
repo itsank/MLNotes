@@ -54,8 +54,6 @@ Tracking using object detector.
 + Used off-the-self object detection algorithms(Faster R-CNN with RESNET-101 and Feature Pyramid Network[FPN]) with some nice tricks (Motion model and reindentification algorithms.
 + Currently state-of-art results on MOTChallenge database
 
-Inhttps://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8540450&tag=1
-
 ##### Heterogeneous Association Graph Fusion for Target Association in Multiple Object Tracking [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8540450&tag=1)
 + Solve the problem of Detector fails
 + Fuse Detection and superpixel graph
