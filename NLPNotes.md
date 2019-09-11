@@ -52,6 +52,9 @@ Tips
 + Used Hierarchical softmax based on Huffman code tree to speed up classification. Complexity drop from O(kn) to O(hlogk)m (k no of classes, h dimention of text representation). They performed depth first search and tracked maximum probability among leafs to discard small probability branches, thus speeding up.
 + Used Bag of n-grams as features 
 + Used hashin tricks for efficient mapping of n-grams.
++ It outperform LSTM and deep model becuase fasttext get entire paragaph at pnce, while LSTm and other methord are sequencial,may be deep model overfit more frequently as the model complexity is very high. May LSTM forget the earlier part of the text, that may be the reason why it didn't perform better.
++ They evaluated their model on the test domain which are not good for comparing with large models.
++ It capture word order information to some extend using bigram and ngrams.
 
 #### Tang, el al, PTE: Predictive Text Embedding Through Large-Scale Heterogeneous Text Networks, Aug'15 [pdf](https://arxiv.org/pdf/1508.00200.pdf)
 + PTE utilizes both labeled and unlabeled to learn text embeddings.
