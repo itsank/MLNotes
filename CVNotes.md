@@ -33,11 +33,28 @@
 
 ## Video Tracking
 
+### MOT Challenge Data Set
+MOT -> multiple Object Tracking
+Task
++ Find where object are
++ Track object inbetween frame
+Why hard
++ object shape and size can change drastically
++ object occulusion
++ Crowd ID switch, object detector switch ID to different ID, if similar object is near by.
+
 #### Interesting papers
-###### Aug 2019 Philip el al, Tracking without bells and whistles [pdf](https://arxiv.org/pdf/1903.05625.pdf)
+
+Tracking by Detection
+
+
+##### Aug 2019 Philip el al, Tracking without bells and whistles [pdf](https://arxiv.org/pdf/1903.05625.pdf)
 + Simpliest approach to tracking multpile objects in a video.
 + Used off-the-self object detection algorithms(Faster R-CNN with RESNET-101 and Feature Pyramid Network[FPN]) with some nice tricks (Motion model and reindentification algorithms.
 + Currently state-of-art results on MOTChallenge database
+
+In
+pdf(https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8540450&tag=1)
 
 
 
