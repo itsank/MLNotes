@@ -53,37 +53,37 @@ Why hard
 
 Tracking using object detector.
 
-##### Aug 2019 Philip el al, Tracking without bells and whistles(TWBaW) [pdf](https://arxiv.org/pdf/1903.05625.pdf)
-+ Simpliest approach to tracking multpile objects in a video.
-+ Used off-the-self object detection algorithms(Faster R-CNN with RESNET-101 and Feature Pyramid Network[FPN]) with some nice tricks (Motion model and reindentification algorithms.
-+ Currently state-of-art results on MOTChallenge database
-+ Kill detection if previous and new object box are near by, just like ANMS.
-+ Very good for ID switch problem, have supervisied algorithm to decrease ID switching.
-Pro
-+ Don't need lots of label data.
-Con
++ ##### Aug 2019 Philip el al, Tracking without bells and whistles(TWBaW) [pdf](https://arxiv.org/pdf/1903.05625.pdf)
++   Simpliest approach to tracking multpile objects in a video.
++   Used off-the-self object detection algorithms(Faster R-CNN with RESNET-101 and Feature Pyramid Network[FPN]) with some nice tricks (Motion model and reindentification algorithms.
++   Currently state-of-art results on MOTChallenge database
++   Kill detection if previous and new object box are near by, just like ANMS.
++   Very good for ID switch problem, have supervisied algorithm to decrease ID switching.
+  Pro
+  +   Don't need lots of label data.
+  Con
 +
-Tracktor++
-+ Added Motion model and re-identification 
-+ Model model
-  + Enhanced correlated coefficent
+  Tracktor++
+  + Added Motion model and re-identification 
+  + Model model
+  +   Enhanced correlated coefficent
 
 
-##### Heterogeneous Association Graph Fusion for Target Association in Multiple Object Tracking [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8540450&tag=1)
-+ Solve the problem of Detector fails
-+ Fuse Detection and superpixel graph
++ ##### Heterogeneous Association Graph Fusion for Target Association in Multiple Object Tracking [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8540450&tag=1)
+  + Solve the problem of Detector fails
+  + Fuse Detection and superpixel graph
 
-###### Improvements to Frank-Wolfe optimization for multi-detector multi-object tracking (Leibniz University Hannover, Technical University Munich)
++ ###### Improvements to Frank-Wolfe optimization for multi-detector multi-object tracking (Leibniz University Hannover, Technical University Munich)
 
-###### Motion Segmentation & Multiple Object Trackingby Correlation Co-Clustering (University of Mannheim, University of Freiburg, Max Planck Institute, Bosch Institute) (JCC)
-+ combine pixel tracjectory with bounding box tracjectory
++ ###### Motion Segmentation & Multiple Object Trackingby Correlation Co-Clustering (University of Mannheim, University of Freiburg, Max Planck Institute, Bosch Institute) (JCC)
+  + combine pixel tracjectory with bounding box tracjectory
 
-###### Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-identification (Tsinghua University)(MOTDT17)
-+ Use kalman filter object tracker
-+ ReID network to join network
-+ Use R-FCN object detector
++ ###### Real-time Multiple People Tracking with Deeply Learned Candidate Selection and Person Re-identification (Tsinghua University)(MOTDT17)
+  + Use kalman filter object tracker
+  + ReID network to join network
+  + Use R-FCN object detector
 
-###### Multiple Hypothesis Tracking Revisited (Georgia Tech, Oregon State)(MHT_DAM)(Good survey paper)
++ ###### Multiple Hypothesis Tracking Revisited (Georgia Tech, Oregon State)(MHT_DAM)(Good survey paper)
 
 
 
