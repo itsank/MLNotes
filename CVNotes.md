@@ -33,7 +33,11 @@
 
 ## Video Tracking
 
-+ Most of paper formulate problem in a graph structure so that generic graph algorithms can be used,
++ Most of paper formulate problem in a graph structure so that generic graph algorithms can be used.
++ As frame rate->infy, tracking becomes detectuon.
++ Generally two statge object detector, where first stage is object dtection using RCN and second stage is box regression of tracking box using some localization algorithm.
+Metric
++ MOTA $(1- \frac{\sum(m_t + fp_t + mme_t)}{\sum_tg_t}$; m -> no of misses; fp -> false positives and mme -> mismaches.
 
 ### MOT Challenge Data Set
 MOT -> multiple Object Tracking
@@ -49,10 +53,21 @@ Why hard
 
 Tracking using object detector.
 
-##### Aug 2019 Philip el al, Tracking without bells and whistles [pdf](https://arxiv.org/pdf/1903.05625.pdf)
+##### Aug 2019 Philip el al, Tracking without bells and whistles(TWBaW) [pdf](https://arxiv.org/pdf/1903.05625.pdf)
 + Simpliest approach to tracking multpile objects in a video.
 + Used off-the-self object detection algorithms(Faster R-CNN with RESNET-101 and Feature Pyramid Network[FPN]) with some nice tricks (Motion model and reindentification algorithms.
 + Currently state-of-art results on MOTChallenge database
++ Kill detection if previous and new object box are near by, just like ANMS.
++ Very good for ID switch problem, have supervisied algorithm to decrease ID switching.
+Pro
++ Don't need lots of label data.
+Con
++
+Tracktor++
++ Added Motion model and re-identification 
++ Model model
+  + Enhanced correlated coefficent
+
 
 ##### Heterogeneous Association Graph Fusion for Target Association in Multiple Object Tracking [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8540450&tag=1)
 + Solve the problem of Detector fails
