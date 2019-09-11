@@ -59,7 +59,12 @@ Tips
 #### Tang, el al, PTE: Predictive Text Embedding Through Large-Scale Heterogeneous Text Networks, Aug'15 [pdf](https://arxiv.org/pdf/1508.00200.pdf)
 + PTE utilizes both labeled and unlabeled to learn text embeddings.
 + labeled word co-occurrence,first represented as a large-scale heterogeneous text network, then embedded into a low dimensional space through an efficient algorithm.
-+
++ Redcues Data sparseness through test Embedding
++ Use three level to network to map local context, document and category level
++ Model Bipartite Network Enbedding, preserve the first-order and second order proximity.
+
+
+
     
 # Interesting papers
 #### Embeddings
