@@ -17,7 +17,7 @@
 ### Generative Adversarial Networks (GANS)
 #### 1)Original GAN
 
-#### 2)BigGAN
+#### 2)BigGAN [pdf]
 + Solves issue of using GAN for high-definition images upto (512x512)
 + Resuts have 100 ~ 200 % improvement from SA-GAN (IS:166.5; FID 7.4)
 + Larger batch size(2048), with large number of channels(64)
@@ -34,7 +34,10 @@
 ## Video Tracking
 
 #### Interesting papers
-####### Tracking without bells and whistles [pdf](https://arxiv.org/pdf/1903.05625.pdf)
+###### Aug 2019 Philip el al, Tracking without bells and whistles [pdf](https://arxiv.org/pdf/1903.05625.pdf)
++ Simpliest approach to tracking multpile objects in a video.
++ Used off-the-self object detection algorithms(Faster R-CNN with RESNET-101 and Feature Pyramid Network[FPN]) with some nice tricks (Motion model and reindentification algorithms.
++ Currently state-of-art results on MOTChallenge database
 
 
 
