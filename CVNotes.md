@@ -37,7 +37,7 @@
 + As frame rate->infy, tracking becomes detectuon.
 + Generally two statge object detector, where first stage is object dtection using RCN and second stage is box regression of tracking box using some localization algorithm.
 Metric
-+ MOTA $(1- \frac{\sum(m_t + fp_t + mme_t)}{\sum_tg_t}$; m -> no of misses; fp -> false positives and mme -> mismaches.
++ MOTA <code>$$(1- \frac{\sum(m_t + fp_t + mme_t)}{\sum_tg_t}$$</code>; m -> no of misses; fp -> false positives and mme -> mismaches.
 
 ### MOT Challenge Data Set
 MOT -> multiple Object Tracking
