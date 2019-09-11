@@ -30,7 +30,7 @@
   + it can do text generation, but are not good in that.
 
 
-## Classification
+## Text Classification
 
 ### Generative vs Discriminative Models
 + Model the distribution of the outline data, to do generation of data similar to inout data. Model joint distribution
@@ -44,6 +44,16 @@ Tips
     + Number of epochs
     + Threshold on training set errors, 
     + No descrese in error or increase validation error.
+    
+#### Joulin el al, Bag of Tricks [Aug 2016 pdf] (https://arxiv.org/pdf/1607.01759.pdf)
++ Introduced FastText classifier, results are often on par with deep learning based classifeirs, much much faster can train 1Billon words in a single cpu in 10 mins. Very good results of that time. Showed using n-gram up to 5 leads to best performance.
++ Explored ways to sclae linear classifiers to large corpus, using simple two layer NN. 
++ Analysied their work on tag prediction and sentiment analysis.
++ Used Hierarchical softmax based on Huffman code tree to speed up classification. Complexity drop from O(kn) to O(hlogk)m (k no of classes, h dimention of text representation). They performed depth first search and tracked maximum probability among leafs to discard small probability branches, thus speeding up.
++ Used Bag of n-grams as features 
++ Used hashin tricks for efficient mapping of n-grams.
+
+
     
 # Interesting papers
 #### Embeddings
