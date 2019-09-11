@@ -45,7 +45,7 @@ Tips
     + Threshold on training set errors, 
     + No descrese in error or increase validation error.
     
-#### Joulin el al, Bag of Tricks [Aug 2016 pdf] (https://arxiv.org/pdf/1607.01759.pdf)
+#### Joulin el al, Bag of Tricks [Aug 2016 pdf](https://arxiv.org/pdf/1607.01759.pdf)
 + Introduced FastText classifier, results are often on par with deep learning based classifeirs, much much faster can train 1Billon words in a single cpu in 10 mins. Very good results of that time. Showed using n-gram up to 5 leads to best performance.
 + Explored ways to sclae linear classifiers to large corpus, using simple two layer NN. 
 + Analysied their work on tag prediction and sentiment analysis.
@@ -53,7 +53,10 @@ Tips
 + Used Bag of n-grams as features 
 + Used hashin tricks for efficient mapping of n-grams.
 
-
+#### Tang, el al, PTE: Predictive Text Embedding Through Large-Scale Heterogeneous Text Networks, Aug'15 [pdf](https://arxiv.org/pdf/1508.00200.pdf)
++ PTE utilizes both labeled and unlabeled to learn text embeddings.
++ labeled word co-occurrence,first represented as a large-scale heterogeneous text network, then embedded into a low dimensional space through an efficient algorithm.
++
     
 # Interesting papers
 #### Embeddings
