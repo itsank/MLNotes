@@ -31,6 +31,27 @@
 #### GAN Training Tricks
 + Interesting tricks from soumith github repo [https://github.com/soumith/ganhacks]
 
+
+#### Semi-supervised learning context
+##### Pathak et al Learning Features by Watching Objects Move[pdf](https://people.eecs.berkeley.edu/~pathak/papers/cvpr17.pdf)
++ Used optical flow results as a ground truth to train a image segmentation task.
++ Learned visual representation is applied to object detection, semantic segmentation and action recognition, and they showed that the results are better then other transfering learning done using other unsupervised learning setups.
++ They start with the bounding box crops ad placed jitter on it, they looked directly on the center of the object.
++ Done extensive Validation 
+  + is segmentation a good pretext task?
+    + pretrain using supervised maks and them compare to other pretext tasks
+    + if the learned features are good, it should require small amount of fine tunning
+    + Later layer should be specialized to major tunning
+  + Can it learn from limited data or nosiy mask?
+    + Even with noisy mask model can still learn.
+  + Low shot learning transfer
+    + Good features should require less training data to fine tune.
+    + if you have less data you get better results if you freeeze initial layers and only tune last two layers.
+  + doing unsupervising learning from static data doesn't make sense as our world is dynmaic and human learn in dynamic setup.
+   
+  
+
+
 ## Video Tracking
 
 + Most of paper formulate problem in a graph structure so that generic graph algorithms can be used.
@@ -38,6 +59,8 @@
 + Generally two statge object detector, where first stage is object dtection using RCN and second stage is box regression of tracking box using some localization algorithm.
 Metric
 + MOTA <code>$$(1- \frac{\sum(m_t + fp_t + mme_t)}{\sum_tg_t}$$</code>; m -> no of misses; fp -> false positives and mme -> mismaches, gt ground truth
+
+
 
 ### MOT Challenge Data Set
 MOT -> multiple Object Tracking
