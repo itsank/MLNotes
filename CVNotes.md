@@ -33,7 +33,7 @@
 
 
 #### Semi-supervised learning context
-##### Pathak et al Learning Features by Watching Objects Move[pdf](https://people.eecs.berkeley.edu/~pathak/papers/cvpr17.pdf)
+##### Pathak et al Learning Features by Watching Objects Move [pdf](https://people.eecs.berkeley.edu/~pathak/papers/cvpr17.pdf)
 + Used optical flow results as a ground truth to train a image segmentation task.
 + Learned visual representation is applied to object detection, semantic segmentation and action recognition, and they showed that the results are better then other transfering learning done using other unsupervised learning setups.
 + They start with the bounding box crops ad placed jitter on it, they looked directly on the center of the object.
@@ -48,6 +48,17 @@
     + Good features should require less training data to fine tune.
     + if you have less data you get better results if you freeeze initial layers and only tune last two layers.
   + doing unsupervising learning from static data doesn't make sense as our world is dynmaic and human learn in dynamic setup.
++ Strength
+  + Well written paper, clearly defined hypothesisl and done plentiful experiments to validate their hypothesis.
++ Weaknesses
+  + Predicted masks would be more structured if they would have been generated from conv layers rather than FC layer
+  + uNLC can't mask out inanimate objects and it assumes that every video only has one moving objects, which is not reasonable for many application.
++ Future directions
+  + Reframe the pretext as unsupervised instance segmentatopn it its own task.
+  + Use a more powerful segmentation model for the pretext task.
+  + Use the generated masks as ground truth for another model 
+  + Use more powerfull network to pretext task.
+  
    
   
 
