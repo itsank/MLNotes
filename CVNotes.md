@@ -33,7 +33,7 @@
 
 
 #### Semi-supervised learning context
-##### Pathak et al Learning Features by Watching Objects Move [pdf](https://people.eecs.berkeley.edu/~pathak/papers/cvpr17.pdf)
+##### 2) Pathak et al Learning Features by Watching Objects Move, CVPR'17 [pdf](https://people.eecs.berkeley.edu/~pathak/papers/cvpr17.pdf)
 + Used optical flow results as a ground truth to train a image segmentation task.
 + Learned visual representation is applied to object detection, semantic segmentation and action recognition, and they showed that the results are better then other transfering learning done using other unsupervised learning setups.
 + They start with the bounding box crops ad placed jitter on it, they looked directly on the center of the object.
