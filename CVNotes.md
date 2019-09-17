@@ -33,6 +33,8 @@
 
 
 #### Semi-supervised learning context
++ Main idea is to use consisitency losses.
+
 ##### 2) Pathak et al Learning Features by Watching Objects Move, CVPR'17 [pdf](https://people.eecs.berkeley.edu/~pathak/papers/cvpr17.pdf)
 + Used optical flow results as a ground truth to train a image segmentation task.
 + Learned visual representation is applied to object detection, semantic segmentation and action recognition, and they showed that the results are better then other transfering learning done using other unsupervised learning setups.
@@ -113,6 +115,9 @@ Tracking using object detector.
   + ReID network to join network
   + Use R-FCN object detector
 + ###### Multiple Hypothesis Tracking Revisited (Georgia Tech, Oregon State)(MHT_DAM)(Good survey paper)
+
+
+
 
 
 
