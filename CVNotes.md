@@ -116,6 +116,17 @@ Tracking using object detector.
   + Use R-FCN object detector
 + ###### Multiple Hypothesis Tracking Revisited (Georgia Tech, Oregon State)(MHT_DAM)(Good survey paper)
 
+#### Modelling uncertainity using Hedged instance embedding [pdf](https://arxiv.org/pdf/1810.00319.pdf)
++ Heteroscedastic uncertainity
+  + data dependent uncertainity
+   + Depends on inputs to model 
++ Homoscedastic uncertainity
+  + task-dependnt uncertainity
+  + Varies between different tasks
+  + Stays constant for different inputs
+   
+  
+
 
 
 
