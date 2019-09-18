@@ -69,3 +69,11 @@ Tips
 # Interesting papers
 #### Embeddings
 
+Attention
++ High generalization Capacity
++ Surprising performance yet simple structure
++ Still didn't fully understand why attention world
+Transformer (Attention is all you need)
++ 
+
+
