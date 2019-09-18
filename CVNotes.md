@@ -124,6 +124,10 @@ Tracking using object detector.
   + task-dependnt uncertainity
   + Varies between different tasks
   + Stays constant for different inputs
++ in Mnist the amount of uncertainity correspons to corruption in the image.
++ Uncertianity is self mismatch probability.
++ AP is bettwe way ti measure than KNN for uncertainity.
+
    
   
 
