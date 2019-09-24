@@ -70,7 +70,7 @@
   + Dataset:- Flickr SoundNet
   + Pre-trained imagenet weights also git good performance in case of audio network.
   + Good HeatMaps, which show  that the trained nwtwork can correlate sounds can the object, which produces it
-  + 
+  + Used Unlabeleddaga
   + 
   
 
