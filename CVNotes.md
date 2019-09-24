@@ -62,6 +62,16 @@
   + Use more powerfull network to pretext task.
   
    
+  #### Arandjelovic ́ Look, Listen and Learn
+  + Learn audio and visual correspondance.
+  + Two submetworks, vision and audio subnetwork.
+  + Data sampling :- random frame from video and randon audio from another random video
+  + Data augenttion:- flipping + color saturation + other methods
+  + Dataset:- Flickr SoundNet
+  + Pre-trained imagenet weights also git good performance in case of audio network.
+  + Good HeatMaps, which show  that the trained nwtwork can correlate sounds can the object, which produces it
+  + 
+  + 
   
 
 
