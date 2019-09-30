@@ -76,4 +76,11 @@ Attention
 Transformer (Attention is all you need)
 + 
 
+#### Semi-Supervised Learning and Active Learning
+
+Semi-supervised Convolutional Neural Networks for Text Categorization via Region Embedding[pdf](https://papers.nips.cc/paper/5849-semi-supervised-convolutional-neural-networks-for-text-categorization-via-region-embedding.pdf)
+
+
+Active Deep Networks for Semi-Supervised Sentiment Classification[pdf](https://www.aclweb.org/anthology/C10-2173)
+
 
