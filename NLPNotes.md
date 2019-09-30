@@ -103,6 +103,8 @@ Active Deep Networks for Semi-Supervised Sentiment Classification [pdf](https://
     + Select equal number of + and -ve instances we get the better performance.
 + Require limited number of training data
 + Choose data to close to hyperplane to be labeled while training
++ Two stage -> 1) stage using RBM 2) supervised learning using active learning framework; both steps are done iteratively.
+
 
 
 
