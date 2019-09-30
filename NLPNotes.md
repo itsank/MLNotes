@@ -98,6 +98,12 @@ Active Deep Networks for Semi-Supervised Sentiment Classification [pdf](https://
 + Use RBMS, energy based models, hgher the energy the lower is the compatiility.
 + Preprocesing, each review is presented as one-hot vector ; punchtation and number and word of length 1 are removed.; Top 1.5 % words are removed.
 + Training RBM steps 1) Initailize weight 2) samplying the weight m times using Gibbs sampling 3) Contrastive divergence
++ Active learning (ADN)
+    + select ambigous data points, select data points near the seperating hyper planes
+    + Select equal number of + and -ve instances we get the better performance.
++ Require limited number of training data
++ Choose data to close to hyperplane to be labeled while training
+
 
 
 
