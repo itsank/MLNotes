@@ -92,9 +92,14 @@ Semi-supervised Convolutional Neural Networks for Text Categorization via Region
 + Using regon of the word allwos rge cnn to extract concepts bettwer
 
 
-
-
-
 Active Deep Networks for Semi-Supervised Sentiment Classification [pdf](https://www.aclweb.org/anthology/C10-2173)
++ Used for sentiment classification
++ Active Learning:- Actively select the label data and unlabel data
++ Use RBMS, energy based models, hgher the energy the lower is the compatiility.
++ Preprocesing, each review is presented as one-hot vector ; punchtation and number and word of length 1 are removed.; Top 1.5 % words are removed.
++ Training RBM steps 1) Initailize weight 2) samplying the weight m times using Gibbs sampling 3) Contrastive divergence
+
+
+
 
 
