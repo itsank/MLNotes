@@ -78,9 +78,23 @@ Transformer (Attention is all you need)
 
 #### Semi-Supervised Learning and Active Learning
 
-Semi-supervised Convolutional Neural Networks for Text Categorization via Region Embedding[pdf](https://papers.nips.cc/paper/5849-semi-supervised-convolutional-neural-networks-for-text-categorization-via-region-embedding.pdf)
+Semi-supervised Convolutional Neural Networks for Text Categorization via Region Embedding [pdf](https://papers.nips.cc/paper/5849-semi-supervised-convolutional-neural-networks-for-text-categorization-via-region-embedding.pdf)
++ Uses convolutional neural networks (CNNs) for text categorization
++ Unlike the previous approaches that rely on word embeddings, our method learns embeddings of small text regions from unlabeled data for integration into a supervised CNN.
++ Create embedding for n-gram
++ TV embedding (Try to predict context both forward and backward), these left and right context are two views, they are working on n-gram instead of a single word.
++ cnn produces non-linear embedding
++ Train a CNN to perfom in two task 1) skipgram and 2) classification
++ Used relu activateion
++ Most Semi-supervised appratches in NLP uses Word2vec embedding, which is made with out any contextual 
++ Co-learning, create multiple views of the data, take that view which give good result.
++ CNN can get high level concepts from text
++ Using regon of the word allwos rge cnn to extract concepts bettwer
 
 
-Active Deep Networks for Semi-Supervised Sentiment Classification[pdf](https://www.aclweb.org/anthology/C10-2173)
+
+
+
+Active Deep Networks for Semi-Supervised Sentiment Classification [pdf](https://www.aclweb.org/anthology/C10-2173)
 
 
