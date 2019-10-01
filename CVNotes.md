@@ -5,6 +5,8 @@
 + Do some intution based binary search of hyperparameters
 + Use visualization as much as possible to analysis.
 + Don't change lots of hyperparameters at the same time.
++ saw tooth learning rate schedule is good for fixing saddle point stuck issues
++ cosine learning rate schedule (converges fater then atom with sgd with mommentum)
 
 
 ## Variation Inference Methods
@@ -62,7 +64,7 @@
   + Use more powerfull network to pretext task.
   
    
-  #### Arandjelovic ́ Look, Listen and Learn
+  ##### Arandjelovic ́ Look, Listen and Learn
   + Learn audio and visual correspondance.
   + Two submetworks, vision and audio subnetwork.
   + Data sampling :- random frame from video and randon audio from another random video
@@ -71,7 +73,19 @@
   + Pre-trained imagenet weights also git good performance in case of audio network.
   + Good HeatMaps, which show  that the trained nwtwork can correlate sounds can the object, which produces it
   + Used Unlabeleddaga
-  + 
+  
+  ##### Selfie [pdf](https://arxiv.org/pdf/1906.02940.pdf)
+  + Try to emulate pretraiing task of Bert, bu masking few patches of the image and then classify the correct position of image patches from given patches from same Image
+  + Used Attention polling (Transformer)
+  + Generalized Bert to continuous input space.
+  + Used non-overlapping patches
+  + Used large patches
+  + include dropout in ResNet50
+  + Used cosine learning schedule
+  + Perform muliple classification simultenously inorder to speed up computation.
+  + Didn't compare their attention pooling in comparision to max pooling and average pooling.
+  
+  
   
 
 
@@ -137,6 +151,9 @@ Tracking using object detector.
 + in Mnist the amount of uncertainity correspons to corruption in the image.
 + Uncertianity is self mismatch probability.
 + AP is bettwe way ti measure than KNN for uncertainity.
+
+
+
 
    
   
