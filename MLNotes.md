@@ -8,4 +8,9 @@
 + Small improvements in running time don’t trump major losses in robustness.
 + “which algorithm is better” is rarely answered by looking at a single proxy such as “convergence rate”
 + Basic Gradient Descent
-  + 
+  + minimizeses a convex function (twice differentiable and strongly convex)
+  + Let $n>2$ be an integer.
+Consider the equation:
+\[
+a^n + b^n = c^n
+\]
