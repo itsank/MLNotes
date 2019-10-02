@@ -33,6 +33,12 @@
 #### GAN Training Tricks
 + Interesting tricks from soumith github repo [https://github.com/soumith/ganhacks]
 
+#### PU-GAN 3D GAN for upsampling [pdf]()
++ Use GAN for upsampling
++ Have a very unique architecture using feature extraction and up-down-up expansion unit and coordinate reconstructor, self attention unit.
++ Vey good start-of-the art results
+
+
 
 #### Semi-supervised learning context
 + Main idea is to use consisitency losses.
