@@ -108,6 +108,14 @@ Active Deep Networks for Semi-Supervised Sentiment Classification [pdf](https://
 
 
 
+#### Pengfei Liu el al, Recurrent Neural Network for Text Classification with Multi-Task Learning [pdf
++ Trained multiple task at the same time, inorder to get generic model for everything
++
+
+
+#### Yu Meng el al, Weakly-Supervised Neural Text Classification [pdf]()
+
+
 
 
 
