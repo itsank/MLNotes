@@ -93,6 +93,16 @@
   
   
   
+## Domain Adaptation 
+
+#### Deep Transfer Learning with Joint Adaptation Networks [pdf](https://arxiv.org/pdf/1605.06636.pdf)
++ Contribution
++ Addressing joint adaption
++ Decrease the shift in the joint distribution across domains and enables learning transfering
++ Two loss:- Domain loss and classification loss
+
+
+
 
 
 ## Video Tracking
