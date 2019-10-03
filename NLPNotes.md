@@ -114,6 +114,8 @@ Active Deep Networks for Semi-Supervised Sentiment Classification [pdf](https://
 
 
 #### Yu Meng el al, Weakly-Supervised Neural Text Classification [pdf]()
++ Use Seed information to generate lots of data for self learning, and then doing finetuning on real data.
+
 
 #### An Overview of Multi-Task Learning in Deep Neural Networks [pdf](https://arxiv.org/pdf/1706.05098.pdf)
 + Vey Good overview paper comparing various multi-task training
