@@ -14,3 +14,6 @@ Consider the equation:
 \[
 a^n + b^n = c^n
 \]
+
+## Siasmese Network
++ Triplet Loss(http://datahacker.rs/032-cnn-triplet-loss/)
