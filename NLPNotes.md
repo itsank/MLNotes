@@ -64,7 +64,20 @@ Tips
 + Model Bipartite Network Enbedding, preserve the first-order and second order proximity.
 
 
-
+## POS tagging and NER
++ demo.allennlp.com
++ Dataset CoNLL 2003 and OntoNotes V5
++ Tradition Methods 
+  + HMM- Generative Model
+  + CRF- Descriminative Model - Sutton and mcmacllum - "An introduction to Condition Random Fields", 2010
+  + CRF performs better then HMM, but can be more computational intensive then HMM.
+  + CRF can incorporate extra features, thus it can outperform hmm.
++ Deep Models
+  + basic window base classifier can be one of the naive approach
+  + Second option is bi-directional LSTM (PT accuracy 96.9%)(NER accuracy 85%)
+    - Drawbacks - Its does nto model the depencies on other. not modelling the output structure
+  + Third option <State-of-the-art> is LSTM+CRF, Bi-LSTM stack with CRF, hidden representation of LSTRM is used as a feature to CRF (PT accuracy 97.3%)(NER accuracy 87%)
+  + END-TO-END SEQUENCE LABELLing LSTM-CNN-CRF model, embedding is made using CNN, then bi-LSTM is used to learned the representation and then it is passed through CRF for final pos tagging. (PT accuracy 97.55%) (NER accuracy 91.2%
     
 # Interesting papers
 #### Embeddings
