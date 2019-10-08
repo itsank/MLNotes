@@ -101,6 +101,10 @@
 + Decrease the shift in the joint distribution across domains and enables learning transfering
 + Two loss:- Domain loss and classification loss
 
+#### Auto-Dial Automatic DomaIn Alignment Layers[pdf](http://openaccess.thecvf.com/content_ICCV_2017/papers/Carlucci_AutoDIAL_Automatic_DomaIn_ICCV_2017_paper.pdf)
++ The authors provide a way to train a network which can adapt to different domains and performs better in different settings.
++ Introduce DAlayer  & entropy loss to domain adaptation problem
+
 
 
 
