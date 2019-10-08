@@ -104,7 +104,17 @@
 #### Auto-Dial Automatic DomaIn Alignment Layers[pdf](http://openaccess.thecvf.com/content_ICCV_2017/papers/Carlucci_AutoDIAL_Automatic_DomaIn_ICCV_2017_paper.pdf)
 + The authors provide a way to train a network which can adapt to different domains and performs better in different settings.
 + Introduce DAlayer  & entropy loss to domain adaptation problem
-
++ Prior work
+  + Adaptive batch norm
+  + MMD + regulaization (KL divergence)
++ DALayer
+  + introduce cross domain baise (alpha)
+  + Align source and target domain
+  + learned alpha,learn different degree of alignment 
+  Weakness
+    - No clear directive why source and target distribution are mixed
+    - No rescaling/shifting of normalized values, unlike the batch norm
+  
 
 
 
