@@ -115,6 +115,8 @@
     - No clear directive why source and target distribution are mixed
     - No rescaling/shifting of normalized values, unlike the batch norm
   
+  + It is interesting to note that just by adding entropy loss had a negative impact, while entropy loss combined with DA-layer perform better consistently.
+  + 
 
 
 
