@@ -79,6 +79,17 @@ Tips
   + Third option <State-of-the-art> is LSTM+CRF, Bi-LSTM stack with CRF, hidden representation of LSTRM is used as a feature to CRF (PT accuracy 97.3%)(NER accuracy 87%)
   + END-TO-END SEQUENCE LABELLing LSTM-CNN-CRF model, embedding is made using CNN, then bi-LSTM is used to learned the representation and then it is passed through CRF for final pos tagging. (PT accuracy 97.55%) (NER accuracy 91.2%
     
+    
+#### Distantly Supervised NER with Partial Annotation Learning and Reinforcement Learning[pdf](https://www.aclweb.org/anthology/C18-1183.pdf)
++ Use Bi-LSTM + CRF + past annotation
++ NE tagger
++ Use RL based instance selector ( use policy network)
+
+#### Active Learning by Labeling Features [pdf](https://pdfs.semanticscholar.org/54d2/be3b053c36b7b8fb928926c19da609143be2.pdf)
++ ma- chine solicits “labels” on features rather than instances
+
+    
+    
 # Interesting papers
 #### Embeddings
 
