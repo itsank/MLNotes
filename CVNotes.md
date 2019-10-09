@@ -91,7 +91,17 @@
   + Perform muliple classification simultenously inorder to speed up computation.
   + Didn't compare their attention pooling in comparision to max pooling and average pooling.
   
-  
+#### Invariant Information Clustering for Unsupervised Image Classification and Segmentation[pdf](https://arxiv.org/pdf/1807.06653.pdf)[Slide][review]
++ Clustering 
++ Maximize mutual information 
++ claim to be STOA
++ Have seconding network to combat overclusting (novel approach)
++ Very good result on image segmentation
+
+#### Constractive predictive coding henaff et al 2019
++ One of the STOA, same results as supervised learning methods, better then supervised learning in some cases.
+
+
   
 ## Domain Adaptation 
 
