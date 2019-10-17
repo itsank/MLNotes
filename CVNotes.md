@@ -128,6 +128,13 @@
   + It is interesting to note that just by adding entropy loss had a negative impact, while entropy loss combined with DA-layer perform better consistently.
   + 
 
+#### Domain-Adversarial Training of Neural Networks [pdf]
++ Use H-divergence as a regulaizer
++ Minimize the source risk along with minimizes h-divergence, They learn the trade off between risk minimization and H-divergence minimization
++ For effective do- main transfer to be achieved, predictions must be made based on features that cannot discriminate between the training (source) and test (target) domains.
++ Use gradient reversal layer to learn not to discriminate the the training and test target domain.
++ Use gradient reversal layer to learn everything in one pass within standard framework of gradient descent.
++ Good paper
 
 
 
