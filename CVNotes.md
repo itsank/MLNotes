@@ -136,7 +136,24 @@
 + Use gradient reversal layer to learn everything in one pass within standard framework of gradient descent.
 + Good paper
 
-
+Type of Domain adaptation papers can be classify into these three techniques
+1) Statistical Alignment
+  + Easy to train/compute/understand
+  + just a loss/ norm no major model changes
+  + Almost no new parameters to add
+  
+2) Feature Adverserial alignment
+  - Oscillations during training (Due to GAN branch)
+  + learned alignment
+  + learning less parameters then pixelwise approach
+ 
+  
+3) Pixelwise learning
+  - Learn lot of parameters more hen adversierial type
+  - Theses learn parameters are only supervised using pixelwise loss
+  - problem with pixelwise approach is that it may ignore the semantics information in the picture
+  + Their are both easy and hard to implement
+  + Assuming if you can easy implement that then you can easly interpret
 
 ## Video Tracking
 
