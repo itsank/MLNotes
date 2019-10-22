@@ -146,5 +146,21 @@ Active Deep Networks for Semi-Supervised Sentiment Classification [pdf](https://
 + Must Read
 
 
+## Deep Text Generation
+
+#### on extraction and abstractive neural document summarization with lansformer language model arXiv.org 1909.03186
+
+Type of Summarizations.
++ Abstractive Summarization
++ Informative Summarization
+
+Generation from Knowledge bases
++ Use WebNLG challenge 2017 using DBpedia, RDF
+
+Basic Architecture
+1) encoder and Decoder
+Encoder may be cnn,lstm, transformer, bi-lstm
+
+Use Cross entryoy between predicted probability distribution and the true next 
 
 
