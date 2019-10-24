@@ -8,6 +8,16 @@
 + saw tooth learning rate schedule is good for fixing saddle point stuck issues
 + cosine learning rate schedule (converges fater then atom with sgd with mommentum)
 
+Confidence 
+  + Very confident score of one class with respect
+  + Need to do more with output
+  + output is likelihood of deep learning model
+  + uncertainity is function of input data and likelihood 
+Robostness
+  + F(x) = F(x + n) => roboustness
+  + Covariance bwteen classes
+  + Statbility is factor of hyperparametert
+
 
 ## Variation Inference Methods
 
@@ -154,6 +164,11 @@ Type of Domain adaptation papers can be classify into these three techniques
   - problem with pixelwise approach is that it may ignore the semantics information in the picture
   + Their are both easy and hard to implement
   + Assuming if you can easy implement that then you can easly interpret
+
+
+#### Adverserial dropout 
+  + NICE WAY TO USE DROPOUT TO PERTUBE NOISE IN MODEL STATE.
+  + 
 
 ## Video Tracking
 
