@@ -146,6 +146,13 @@ Active Deep Networks for Semi-Supervised Sentiment Classification [pdf](https://
 + Must Read
 
 
+## Learning language by computer using task
+#### Learning Language Games Through Interaction [pdf]
++ Learning language in context of a game
++ Model only see the start state and human can see both state and end state 
++ 
+
+
 ## Deep Text Generation
 
 #### on extraction and abstractive neural document summarization with lansformer language model arXiv.org 1909.03186
