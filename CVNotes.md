@@ -170,6 +170,19 @@ Type of Domain adaptation papers can be classify into these three techniques
   + NICE WAY TO USE DROPOUT TO PERTUBE NOISE IN MODEL STATE.
   + 
 
+
+#### DIRT-T [pdf]
++ Enhancement over Domain adverserial training
++ Use Instance Normalization
++ Two stage training
+  + 1st Stage VADA
+    + Apart from Adverstarial training loss, tey use negative cross entropy or conditional cross entropy loss, apart from that they use KL divergence loss to fix Lipschtzness
+  + 2nd stage DIRT-T
+    + Iterative improvement on target domain by using atural gradient and KL diveregnce loss
+    
+  
+
+
 ## Video Tracking
 
 + Most of paper formulate problem in a graph structure so that generic graph algorithms can be used.
